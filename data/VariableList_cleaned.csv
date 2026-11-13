@@ -1,0 +1,27 @@
+Variable_Name,Category_Name,Category_Code,Subcategory_Name,Variable_Code,Units
+"Population, low access to store (%), 2019",Access and Proximity to Foodstore,ACCESS,Overall,PCT_LACCESS_POP19,Percent
+"Low income & low access to store (%), 2019",Access and Proximity to Foodstore,ACCESS,Household Resources,PCT_LACCESS_LOWI19,Percent
+"Households, no car & low access to store (%), 2019",Access and Proximity to Foodstore,ACCESS,Household Resources,PCT_LACCESS_HHNV19,Percent
+"Grocery stores/1,000 pop, 2020",Store Availability,STORES,Grocery,GROCPTH20,"# per 1,000 pop"
+"Supercenters & club stores/1,000 pop, 2020",Store Availability,STORES,Supercenters,SUPERCPTH20,"# per 1,000 pop"
+"Convenience stores/1,000 pop, 2020",Store Availability,STORES,Convenience,CONVSPTH20,"# per 1,000 pop"
+"Dollar stores/1,000 pop, 2020",Store Availability,STORES,Specialized,DSPTH20,"# per 1,000 pop"
+"Fast-food restaurants/1,000 pop, 2020",Restaurant Availability,RESTAURANTS,Fast-food,FFRPTH20,"# per 1,000 pop"
+"Full-service restaurants/1,000 pop, 2020",Restaurant Availability,RESTAURANTS,Full-service,FSRPTH20,Count
+"SNAP participants (% pop), 2022*",Food Assistance,ASSISTANCE,SNAP,PCT_SNAP22,Percent
+"Adult diabetes rate, 2015",Health and Physical Activity,HEALTH,Health,PCT_DIABETES_ADULTS15,Percent
+"Adult diabetes rate, 2019",Health and Physical Activity,HEALTH,Health,PCT_DIABETES_ADULTS19,Percent
+"Adult obesity rate, 2022*",Health and Physical Activity,HEALTH,Health,PCT_OBESE_ADULTS22,Percent
+"Recreation & fitness facilities/1,000 pop, 2020",Health and Physical Activity,HEALTH,Physical Activity,RECFACPTH20,"# per 1,000 pop"
+"% White, 2020",Socioeconomic Characteristics,SOCIOECONOMIC,Race & Age,PCT_NHWHITE20,Percent
+"% Black, 2020",Socioeconomic Characteristics,SOCIOECONOMIC,Race & Age,PCT_NHBLACK20,Percent
+"% Hispanic, 2020",Socioeconomic Characteristics,SOCIOECONOMIC,Race & Age,PCT_HISP20,Percent
+"% Asian, 2020",Socioeconomic Characteristics,SOCIOECONOMIC,Race & Age,PCT_NHASIAN20,Percent
+"% American Indian or Alaska Native, 2020",Socioeconomic Characteristics,SOCIOECONOMIC,Race & Age,PCT_NHNA20,Percent
+"% Population 65 years or older, 2020",Socioeconomic Characteristics,SOCIOECONOMIC,Race & Age,PCT_65OLDER20,Percent
+"Median household income, 2021",Socioeconomic Characteristics,SOCIOECONOMIC,Income Level,MEDHHINC21,Dollars
+"Poverty rate, 2021",Socioeconomic Characteristics,SOCIOECONOMIC,Income Level,POVRATE21,Percent
+"Deep poverty rate, 2021",Socioeconomic Characteristics,SOCIOECONOMIC,Income Level,DEEPPOVRATE21,Percent
+"Persistent-poverty counties, 2017-21",Socioeconomic Characteristics,SOCIOECONOMIC,Income Level,PERPOV17_21,Legend
+"Child poverty rate, 2021",Socioeconomic Characteristics,SOCIOECONOMIC,Income Level,CHILDPOVRATE21,Percent
+"Metro/nonmetro counties, 2023",Socioeconomic Characteristics,SOCIOECONOMIC,Other,METRO23,Legend

@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Large raw data files (rebuild cleaned files with: python clean_data.py)
+data/StateAndCountyData.csv
+data/PLACES__*.csv
