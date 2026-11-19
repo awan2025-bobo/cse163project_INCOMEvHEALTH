@@ -78,6 +78,19 @@ def to_wide(df, index_cols, column_col, value_col):
     return wide
 
 
+def clean_food_values(df):
+    """
+    Returns a copy of long-format Food Atlas rows with FIPS padded to 5
+    characters, Value converted to numbers, and the Atlas's missing-value
+    codes replaced with NaN.
+    """
+    df = df.copy()
+    df['FIPS'] = df['FIPS'].astype(str).str.zfill(5)
+    df['Value'] = pd.to_numeric(df['Value'], errors='coerce')
+    df['Value'] = df['Value'].replace(FOOD_MISSING_CODES, np.nan)
+    return df
+
+
 def download_census(raw_path):
     """Saves the Census API response to raw_path."""
     url = CENSUS_URL
@@ -137,9 +150,7 @@ def clean_food_atlas():
         parts.append(chunk[chunk['Variable_Code'].isin(keep)])
     df = pd.concat(parts)
 
-    df['FIPS'] = df['FIPS'].str.zfill(5)
-    df['Value'] = pd.to_numeric(df['Value'], errors='coerce')
-    df['Value'] = df['Value'].replace(FOOD_MISSING_CODES, np.nan)
+    df = clean_food_values(df)
 
     wide = to_wide(df, ['FIPS', 'State', 'County'], 'Variable_Code',
                    'Value')
